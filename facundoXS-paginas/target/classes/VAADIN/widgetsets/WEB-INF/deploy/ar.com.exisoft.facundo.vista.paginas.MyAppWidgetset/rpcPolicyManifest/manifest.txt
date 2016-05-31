@@ -1,0 +1,2 @@
+# Module ar.com.exisoft.facundo.vista.paginas.MyAppWidgetset
+# RPC service class, partial path of RPC policy file
