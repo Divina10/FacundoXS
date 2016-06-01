@@ -3,13 +3,13 @@ package ar.com.exisoft.facundo.vista.paginas;
 import com.vaadin.data.fieldgroup.BeanFieldGroup;
 
 import ar.com.exisoft.facundo.model.LoginEntity;
-import ar.com.exisoft.facundo.vista.paginas.facade.LoginAction;
+import ar.com.exisoft.facundo.vista.paginas.facade.LoginServicio;
 import elemental.events.KeyboardEvent.KeyCode;
 
 public class LoginForm extends LoginPage{
 
 	private static final long serialVersionUID = 1L;
-	LoginAction loginService = LoginAction.getInstance();
+	LoginServicio loginService = LoginServicio.getInstance();
 	private LoginEntity loginEntity;
 	@SuppressWarnings("unused")
 	private MyUI myUI;

@@ -1,0 +1,14 @@
+ar\com\exisoft\facundo\vista\paginas\facade\LoginServicio.class
+ar\com\exisoft\facundo\vista\paginas\LoginPage.class
+ar\com\exisoft\facundo\vista\paginas\InboxProveedorPage.class
+ar\com\exisoft\facundo\vista\paginas\MyUI$MyUIServlet.class
+ar\com\exisoft\facundo\model\LoginEntity.class
+ar\com\exisoft\facundo\vista\paginas\RecepcionFacturaPage.class
+ar\com\exisoft\facundo\vista\paginas\LoginForm.class
+ar\com\exisoft\facundo\vista\paginas\ValidarFacturaConOrdenPagoPage.class
+ar\com\exisoft\facundo\vista\paginas\AsociarFacturaConOrdenCompraPage.class
+ar\com\exisoft\facundo\configuracion\ConfiguracionFacundoXS.class
+ar\com\exisoft\facundo\vista\paginas\MyUI.class
+ar\com\exisoft\facundo\configuracion\ActivitiEngineConfiguration.class
+ar\com\exisoft\facundo\configuracion\DemoDataConfiguration.class
+ar\com\exisoft\facundo\vista\paginas\InboxProveedorForm.class

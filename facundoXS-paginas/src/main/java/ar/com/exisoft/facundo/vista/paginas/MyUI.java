@@ -2,10 +2,11 @@ package ar.com.exisoft.facundo.vista.paginas;
 
 import javax.servlet.annotation.WebServlet;
 
+import org.vaadin.appfoundation.view.ViewHandler;
+
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.annotations.Widgetset;
-import com.vaadin.navigator.Navigator;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.UI;
@@ -35,9 +36,10 @@ public class MyUI extends UI {
 		layout.setSpacing(true);
 	    setContent( layout );
 	    
-       //service.log();
-//	    Navigator navigateTo = new Navigator(getCurrent(), layout);
-//	    this.setNavigator(navigateTo);
+	 // This will trigger the MainView's activate()-method
+	    // with an instance of the YourView class
+	    //TODO colocar la que corresponde siguiente al login
+	    ViewHandler.activateView(InboxProveedorPage.class);
        
     }
 
