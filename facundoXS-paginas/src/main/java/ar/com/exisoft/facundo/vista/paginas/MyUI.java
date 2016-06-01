@@ -5,6 +5,7 @@ import javax.servlet.annotation.WebServlet;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.annotations.Widgetset;
+import com.vaadin.navigator.Navigator;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.UI;
@@ -33,8 +34,10 @@ public class MyUI extends UI {
 		layout.setMargin(true);
 		layout.setSpacing(true);
 	    setContent( layout );
-	   
+	    
        //service.log();
+//	    Navigator navigateTo = new Navigator(getCurrent(), layout);
+//	    this.setNavigator(navigateTo);
        
     }
 
