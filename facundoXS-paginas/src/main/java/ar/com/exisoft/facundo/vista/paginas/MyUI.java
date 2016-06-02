@@ -39,7 +39,7 @@ public class MyUI extends UI {
 	 // This will trigger the MainView's activate()-method
 	    // with an instance of the YourView class
 	    //TODO colocar la que corresponde siguiente al login
-	   // ViewHandler.activateView(InboxProveedorPage.class, this);
+	   
        
     }
 
