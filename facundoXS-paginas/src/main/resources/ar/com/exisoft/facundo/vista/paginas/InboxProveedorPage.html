@@ -1,9 +1,27 @@
 <!doctype html>
 <html>
  <head>
-  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta charset="UTF-8" name="package-mapping" content="ar_com_exisoft_facundo_vista_paginas:ar.com.exisoft.facundo.vista.paginas">
  </head> 
  <body> 
-  <vaadin-vertical-layout size-full></vaadin-vertical-layout>  
+  <vaadin-vertical-layout size-full> 
+   <vaadin-panel caption="Datos Cliente" style-name="h4" id="tablaDatosCliente" size-full> 
+    <vaadin-horizontal-layout width="99.87%" height="60.54%"> 
+     <vaadin-vertical-layout width="190px"> 
+      <vaadin-text-field caption="Nombre Cliente" style-name="h1" width="242px" _id="nombreCliente" :middle :center></vaadin-text-field> 
+      <vaadin-text-field caption="TEL" style-name="h1" width="241px" _id="telCliente"></vaadin-text-field> 
+     </vaadin-vertical-layout> 
+     <vaadin-vertical-layout width="190px"> 
+      <vaadin-text-field caption="Direccion" style-name="h1" width="243px" _id="direccionCliente"></vaadin-text-field> 
+      <vaadin-text-field caption="FAX" style-name="h1" width="243px" _id="faxCliente"></vaadin-text-field> 
+     </vaadin-vertical-layout> 
+     <vaadin-vertical-layout width="185px"> 
+      <vaadin-text-field caption="CUIT" style-name="h1" width="245px" _id="cuitCliente"></vaadin-text-field> 
+      <vaadin-text-field caption="Condicion de Pago" style-name="h1" width="244px" _id="condicionPago"></vaadin-text-field> 
+     </vaadin-vertical-layout> 
+    </vaadin-horizontal-layout> 
+   </vaadin-panel> 
+  </vaadin-vertical-layout>  
  </body>
 </html>

@@ -7,6 +7,7 @@ ar\com\exisoft\facundo\vista\paginas\RecepcionFacturaPage.class
 ar\com\exisoft\facundo\vista\paginas\LoginForm.class
 ar\com\exisoft\facundo\vista\paginas\ValidarFacturaConOrdenPagoPage.class
 ar\com\exisoft\facundo\vista\paginas\AsociarFacturaConOrdenCompraPage.class
+ar\com\exisoft\facundo\vista\paginas\ClienteSubPage.class
 ar\com\exisoft\facundo\configuracion\ConfiguracionFacundoXS.class
 ar\com\exisoft\facundo\vista\paginas\MyUI.class
 ar\com\exisoft\facundo\configuracion\ActivitiEngineConfiguration.class
